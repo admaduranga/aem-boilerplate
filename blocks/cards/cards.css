@@ -5,23 +5,28 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
   grid-gap: 24px;
+  color: red !important;
 }
 
 .cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
+    color: red !important;
 }
 
 .cards .cards-card-body {
   margin: 16px;
+    color: green !important;
 }
 
 .cards .cards-card-image {
   line-height: 0;
+    color: red !important;
 }
 
 .cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+    color: blue !important;
 }
